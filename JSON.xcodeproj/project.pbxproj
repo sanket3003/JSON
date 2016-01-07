@@ -14,6 +14,11 @@
 		8AC44B461C292AF500703344 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC44B451C292AF500703344 /* Images.xcassets */; };
 		8AC44B491C292AF500703344 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC44B471C292AF500703344 /* LaunchScreen.xib */; };
 		8AC44B551C292AF500703344 /* JSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC44B541C292AF500703344 /* JSONTests.m */; };
+		8AC44B621C292B7400703344 /* DataFetchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC44B5F1C292B7400703344 /* DataFetchService.m */; };
+		8AC44B631C292B7400703344 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC44B611C292B7400703344 /* Reachability.m */; };
+		8AC44B671C294EE500703344 /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC44B651C294EE500703344 /* myTableViewCell.m */; };
+		8AC44B681C294EE500703344 /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC44B661C294EE500703344 /* myTableViewCell.xib */; };
+		8AC44B6C1C296B2600703344 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC44B6A1C296B2600703344 /* loginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,16 +45,18 @@
 		8AC44B4E1C292AF500703344 /* JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC44B531C292AF500703344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC44B541C292AF500703344 /* JSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONTests.m; sourceTree = "<group>"; };
+		8AC44B5E1C292B7400703344 /* DataFetchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetchService.h; sourceTree = "<group>"; };
+		8AC44B5F1C292B7400703344 /* DataFetchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetchService.m; sourceTree = "<group>"; };
+		8AC44B601C292B7400703344 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8AC44B611C292B7400703344 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8AC44B641C294EE500703344 /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		8AC44B651C294EE500703344 /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
+		8AC44B661C294EE500703344 /* myTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
+		8AC44B691C296B2600703344 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		8AC44B6A1C296B2600703344 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8AC44B321C292AF500703344 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AC44B4B1C292AF500703344 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +88,10 @@
 		8AC44B371C292AF500703344 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				8AC44B5E1C292B7400703344 /* DataFetchService.h */,
+				8AC44B5F1C292B7400703344 /* DataFetchService.m */,
+				8AC44B601C292B7400703344 /* Reachability.h */,
+				8AC44B611C292B7400703344 /* Reachability.m */,
 				8AC44B3C1C292AF500703344 /* AppDelegate.h */,
 				8AC44B3D1C292AF500703344 /* AppDelegate.m */,
 				8AC44B3F1C292AF500703344 /* ViewController.h */,
@@ -89,6 +100,11 @@
 				8AC44B451C292AF500703344 /* Images.xcassets */,
 				8AC44B471C292AF500703344 /* LaunchScreen.xib */,
 				8AC44B381C292AF500703344 /* Supporting Files */,
+				8AC44B641C294EE500703344 /* myTableViewCell.h */,
+				8AC44B651C294EE500703344 /* myTableViewCell.m */,
+				8AC44B661C294EE500703344 /* myTableViewCell.xib */,
+				8AC44B691C296B2600703344 /* loginViewController.h */,
+				8AC44B6A1C296B2600703344 /* loginViewController.m */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -127,7 +143,6 @@
 			buildConfigurationList = 8AC44B581C292AF500703344 /* Build configuration list for PBXNativeTarget "JSON" */;
 			buildPhases = (
 				8AC44B311C292AF500703344 /* Sources */,
-				8AC44B321C292AF500703344 /* Frameworks */,
 				8AC44B331C292AF500703344 /* Resources */,
 			);
 			buildRules = (
@@ -200,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC44B441C292AF500703344 /* Main.storyboard in Resources */,
+				8AC44B681C294EE500703344 /* myTableViewCell.xib in Resources */,
 				8AC44B491C292AF500703344 /* LaunchScreen.xib in Resources */,
 				8AC44B461C292AF500703344 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC44B411C292AF500703344 /* ViewController.m in Sources */,
+				8AC44B671C294EE500703344 /* myTableViewCell.m in Sources */,
 				8AC44B3E1C292AF500703344 /* AppDelegate.m in Sources */,
+				8AC44B6C1C296B2600703344 /* loginViewController.m in Sources */,
+				8AC44B621C292B7400703344 /* DataFetchService.m in Sources */,
 				8AC44B3B1C292AF500703344 /* main.m in Sources */,
+				8AC44B631C292B7400703344 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/sanket.b/Documents/FacebookSDKs-iOS-20151111\"";
 				INFOPLIST_FILE = JSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/sanket.b/Documents/FacebookSDKs-iOS-20151111\"";
 				INFOPLIST_FILE = JSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +440,7 @@
 				8AC44B5A1C292AF500703344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AC44B5B1C292AF500703344 /* Build configuration list for PBXNativeTarget "JSONTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				8AC44B5D1C292AF500703344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

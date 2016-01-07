@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataFetchService.h"
+#import "myTableViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+#define URL "http://mymerchant.intelgain.com/api/"
+
+#define LOGINSP "Merchant.php/"
+
+{
+    DataFetchService *dataFetchService;
+    UIAlertView *alert;
+    NSArray *mainarr;
+    UIActivityIndicatorView *activityView;
+}
+@property(nonatomic,retain) IBOutlet UITableView *tableView2;
+@property(nonatomic,strong) NSString *token,*user,*pass;
 
 @end
 
